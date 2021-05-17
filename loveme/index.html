@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<title>ex</title>
+<meta name="viewport" content="width=device-width"/>
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<style>
+	/*노트북*/
+	@media only screen and (max-width:1440px) and (min-width:1280px){
+		#gnb li:nth-child(6){display:none;}
+		#gnb li:nth-child(7){display:none;}
+		#gnb li:nth-child(8){display:none;}
+		#gnb li:nth-child(9){display:none;}
+		#gnb li:nth-child(10){display:none;}
+
+		#gnb ul li{width:212px;}
+		
+		li:nth-child(5n+1){margin-left:0;}
+
+	}
+
+/*태블릿*/
+	@media only screen and (max-width:1279px) and (min-width:800px){
+		#margin_wrap{width:100%;}
+		
+		#gnb li:nth-child(5){display:none;}
+		#gnb li:nth-child(6){display:none;}
+		#gnb li:nth-child(7){display:none;}
+		#gnb li:nth-child(8){display:none;}
+		#gnb li:nth-child(9){display:none;}
+		#gnb li:nth-child(10){display:none;}
+
+		#gnb ul li{width:25%;
+					margin-left:0;}
+
+		.con li{width:33%;
+				margin-left:0.5%;
+				margin-top:0.5%;}
+
+		.con li:nth-child(4n+1){margin-left:0.5%;}
+
+		.con li:nth-child(3n+1){margin-left:0;}
+
+		.con li:nth-child(4){margin-top:0.5%;}
+
+		#ad_2 img, #ad_3 img{width:100%;}
+
+		#ad_2{line-height:75px;}
+	}
+
+/*모바일*/
+	@media only screen and (max-width:799px){
+		#margin_wrap{width:100%;}
+		
+		#gnb li:nth-child(3){display:none;}
+		#gnb li:nth-child(4){display:none;}
+		#gnb li:nth-child(5){display:none;}
+		#gnb li:nth-child(6){display:none;}
+		#gnb li:nth-child(7){display:none;}
+		#gnb li:nth-child(8){display:none;}
+		#gnb li:nth-child(9){display:none;}
+		#gnb li:nth-child(10){display:none;}
+
+		#gnb ul li{width:50%;
+					margin-left:0;}
+
+		.con li{width:49.5%;
+				margin-left:1%;
+				margin-top:1%;}
+
+		.con li:nth-child(4n+1){margin-left:1%;}
+		.con li:nth-child(2n+1){margin-left:0;}
+
+		.con li:nth-child(3),
+		.con li:nth-child(4){margin-top:1%;}
+
+		#ad_2 img, #ad_3 img{width:100%;}
+	}
+</style>
+</head>
+
+<body>
+	<div id="wrap">
+		<div id="margin_wrap">
+			<!--header-->
+			<div id="header">
+				<div id="logo">
+					<h1><a href="#"><img src="img/logo.png" alt="" /></a></h1>
+				</div>
+			</div>
+			<!--header-->
+
+			<!--gnb-->
+			<div id="gnb">
+				<ul class="clearfix">
+					<li><a href="#"><h2>목록0</h2></a></li>
+					<li><a href="#"><h2>목록1</h2></a></li>
+					<li><a href="#"><h2>목록2</h2></a></li>
+					<li><a href="#"><h2>목록3</h2></a></li>
+					<li><a href="#"><h2>목록4</h2></a></li>
+					<li><a href="#"><h2>목록5</h2></a></li>
+					<li><a href="#"><h2>목록6</h2></a></li>
+					<li><a href="#"><h2>목록7</h2></a></li>
+					<li><a href="#"><h2>목록8</h2></a></li>
+					<li><a href="#"><h2>목록9</h2></a></li>
+				</ul>
+			</div>
+			<!--gnb-->
+
+			<!--ad_1-->
+			<div id="ad_1">
+				<a href="#"><img src="img/ad/main.jpg" alt="" /></a>
+			</div>
+			<!--ad_1-->
+
+			<!--con-->
+			<div class="con_wrap">
+				<div class="con_title">
+					<h3>BEST CHOICE</h3>
+				</div>
+
+				<div class="con">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<img src="img/content/1.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/2.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/3.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/4.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/5.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/6.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/7.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/8.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/9.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/10.jpg" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/11.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/12.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--con-->
+
+			<!--ad_2-->
+			<div id="ad_2" class="ad">
+				<a href="#"><img src="img/ad/ad_1.jpg" alt="" /></a>
+				<a href="#"><img src="img/ad/ad_2.jpg" alt="" /></a>
+			</div>
+			<!--ad_2-->
+
+			<!--con-->
+			<div class="con_wrap">
+				<div class="con_title">
+					<h3>NEW ARRIVAL</h3>
+				</div>
+
+				<div class="con">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<img src="img/content/1.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/2.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/3.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/4.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/5.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/6.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/7.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/8.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/9.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/10.jpg" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/11.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="#">
+								<img src="img/content/12.gif" alt="" />
+								<span class="text_box">
+									<h4>상품명</h4>
+									<p>상품설명</p>
+									<span>10,000원</span>
+								</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--con-->
+
+			<!--ad_3-->
+			<div id="ad_3" class="ad">
+				<a href="#"><img src="img/ad/ad_3.jpg" alt="" /></a>
+			</div>
+			<!--ad_3-->
+
+			<!--footer-->
+			<div id="footer">
+				copyrightⓒjangyoon0619
+			</div>
+			<!--footer-->
+		</div>
+	</div>
+</body>
+</html>
